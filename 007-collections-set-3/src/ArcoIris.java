@@ -8,10 +8,12 @@
 // G - Limpe o conjunto
 // H - Confira se o conjunto está vazio
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -39,7 +41,11 @@ public class ArcoIris {
         for (String string : cores2)
             System.out.println(string);
 
-//        System.out.println("\nD - Exiba as cores na ordem inversa da que foi informada: ");
+        System.out.println("\nD - Exiba as cores na ordem inversa da que foi informada: ");
+        List<String> cores3 = new ArrayList<>(cores);
+        Collections.reverse(cores3);
+        for (String string : cores3)
+            System.out.println(string);
 
         System.out.println("\nE - Exiba todas as cores que começam com a letra 'v': ");
         for (String string : cores) {
