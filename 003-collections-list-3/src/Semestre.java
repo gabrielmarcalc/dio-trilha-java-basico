@@ -47,6 +47,7 @@ public class Semestre {
         }};
         
         //System.out.println(temperaturas.toString());
+        //
 
         Double soma = 0.0;
         for (Semestre semestre : temperaturas) {
