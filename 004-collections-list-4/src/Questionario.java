@@ -53,6 +53,7 @@ public class Questionario {
         interrogatorio.add(new Questionario("Já trabalhou com a vítima?", scan.nextInt()));
 
         //System.out.println(interrogatorio.toString());
+        //
 
         int soma = 0;
         for (Questionario questionario : interrogatorio) {
